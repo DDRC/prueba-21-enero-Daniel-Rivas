@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>bomberman</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <div id="bomber">
+    Nombre: <input type="text" id="nomBom"><br>
+    Año de nacimiento: <input type="text" id="bornBom">
+    <button onclick="agregarListaBomberos()">Agregar</button>
+  </div>
+  <div id="bomberAuto">
+    Codigo motobomba: <input type="text" id="codMot">
+    <button onclick="agregarListaMotobombas()">Agregar</button>
+  </div>
+  <div id="aociacion">
+    <select name="listaBom" id="listaBom" size="5" multiple>
+
+    </select>
+<select name="listaMot" id="listaMot" size="5" multiple>
+
+
+</select>
+<button onclick="asociar()">Asosciar</button>
+  </div>
+</body>
+<script src="bombero.js"></script>
+<script src="motobomba.js"></script>
+<script src="main.js"></script>
+
+</html>

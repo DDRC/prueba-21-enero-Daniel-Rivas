@@ -1,0 +1,16 @@
+#bomber{
+  width: 200px;
+  height: 200px;
+position: relative;
+top: 10px;
+left: 10px;
+display: inline-block;
+}
+#bomberAuto{
+  width: 200px;
+  height: 200px;
+position: relative;
+top: 0px;
+left: 500px;
+display: inline-block;
+}
